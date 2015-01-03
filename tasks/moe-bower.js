@@ -94,7 +94,8 @@ module.exports = function(grunt) {
                 copy: true,
                 install: true,
                 targetDir: './wwwroot/',
-                verbose: false
+                verbose: false,
+                bowerOptions: {}
             }),
 
             add = function(successMessage, fn) {
