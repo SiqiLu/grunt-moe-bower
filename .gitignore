@@ -144,6 +144,9 @@ ModelManifest.xml
 
 #npm_packages
 node_modules/
+node_modules
+npm-debug.log
+tmp
 
 #bower_components
 bower_components/
@@ -170,3 +173,10 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+
+#debug file
+console_dev.js
+
+#just for test 
+bower.json
+wwwroot/

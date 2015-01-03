@@ -1,3 +1,0 @@
-﻿# grunt-moe-bower
-
-
