@@ -20,7 +20,7 @@ grunt.loadNpmTasks('grunt-moe-bower');
 ## The "mbower" task
 
 ### Overview
-In your project's Gruntfile, add a section named `moe_bower` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `mbower` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
