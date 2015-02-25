@@ -8,7 +8,7 @@
 
 'use strict';
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   // Project configuration.
   grunt.initConfig({
@@ -104,9 +104,9 @@ module.exports = function(grunt) {
 
   grunt.registerTask('js', ['jshint', 'jscs']);
   grunt.registerTask('build', ['mbower']);
-  grunt.registerTask('release', ['exec:npmUpdate', 'bump', 'exec:npmPublish']);
-  grunt.registerTask('release-minor', ['exec:npmUpdate', 'bump:minor', 'exec:npmPublish']);
-  grunt.registerTask('release-major', ['exec:npmUpdate', 'bump:major', 'exec:npmPublish']);
+  grunt.registerTask('release', ['exec:npmUpdate', 'default', 'bump', 'exec:npmPublish']);
+  grunt.registerTask('release-minor', ['exec:npmUpdate', 'default', 'bump:minor', 'exec:npmPublish']);
+  grunt.registerTask('release-major', ['exec:npmUpdate', 'default', 'bump:major', 'exec:npmPublish']);
 
   // Actually load this plugin's task(s).
   grunt.loadTasks('tasks');
@@ -116,5 +116,4 @@ module.exports = function(grunt) {
     scope: 'devDependencies'
   });
   require('time-grunt')(grunt);
-
 };
