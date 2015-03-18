@@ -1,7 +1,7 @@
 {
   "name": "grunt-moe-bower",
   "description": "Bower for moe team.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/SiqiLu/grunt-moe-bower",
   "author": "Siqi Lu <lu.siqi@outlook.com> (https://github.com/SiqiLu)",
   "repository": {
