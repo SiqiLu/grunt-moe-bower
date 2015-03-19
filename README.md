@@ -95,13 +95,3 @@ mbower: {
       }
     }
 ```
-
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-* 2015-01-04 &emsp; v0.1.0 &emsp; Add bowerOptions in moe-bower.js.
-* 2015-02-02 &emsp; v0.1.1 &emsp; Add rule of .jscsrc, complete Gruntfile.js.
-* 2015-02-25 &emsp; v0.1.2 &emsp; Change version number in package.json.
-* 2015-03-18 &emsp; v0.1.3 &emsp; Fix the bug when bowerDir exists.
-* 2015-03-18 &emsp; v0.1.4 &emsp; Add bower.json to bump:options:files and update the version number in package.json.  
