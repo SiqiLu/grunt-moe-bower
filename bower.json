@@ -1,0 +1,26 @@
+{
+  "name": "grunt-moe-bower",
+  "version": "0.2.0",
+  "authors": [
+    "Siqi Lu <lu.siqi@outlook.com>"
+  ],
+  "description": "bower for test",
+  "main": "tasks\\moe-bower.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "grunt",
+    "moe",
+    "bower"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/SiqiLu/grunt-moe-bower",
+  "dependencies": {
+    "angular": "~1.3.8",
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.1",
+    "fontawesome": "~4.2.0",
+    "moe-font-opensans": "~0.7.0"
+  }
+}
