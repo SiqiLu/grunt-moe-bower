@@ -105,7 +105,7 @@ module.exports = function (grunt) {
       });
     };
     var bowerDir = options.bowerDir = path.resolve(bower.config.directory);
-    var targetDir = options.targetDir = path.resolve(options.targetDir, './moe_packages');
+    var targetDir = options.targetDir;
 
     if (options.cleanTargetDir) {
       add('Cleaned target dir ' + chalk.grey(targetDir), function (callback) {

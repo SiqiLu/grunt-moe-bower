@@ -83,7 +83,7 @@ module.exports = function (grunt) {
           cleanBowerDir: false,
           copy: true,
           install: true,
-          targetDir: './wwwroot/'
+          targetDir: './wwwroot/packages/'
         }
       },
       customOptions: {
@@ -92,7 +92,7 @@ module.exports = function (grunt) {
           cleanBowerDir: true,
           copy: true,
           install: true,
-          targetDir: './wwwroot/'
+          targetDir: './wwwroot/packages/'
         }
       }
     }
